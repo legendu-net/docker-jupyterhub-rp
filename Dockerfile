@@ -7,6 +7,7 @@ RUN apt-get update \
         libcairo2-dev \
         libssl-dev \
         libcurl4-openssl-dev \
+        pandoc \
         openjdk-8-jdk r-cran-rjava \
     && apt-get autoremove \
     && apt-get autoclean
