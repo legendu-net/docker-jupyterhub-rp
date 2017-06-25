@@ -3,7 +3,7 @@ pkgs = '
     Rcpp
     rmarkdown DT
     RJDBC jsonlite
-    data.table reshape
+    data.table reshape2
     mailR httr openssl
     ggplot2 rbokeh
     lubridate
