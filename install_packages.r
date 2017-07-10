@@ -3,8 +3,8 @@ pkgs = '
     Rcpp
     rmarkdown DT
     RJDBC jsonlite
-    data.table reshape2
-    mailR httr openssl
+    data.table 
+    mailR httr urltools openssl
     ggplot2 rbokeh
     lubridate
 '
