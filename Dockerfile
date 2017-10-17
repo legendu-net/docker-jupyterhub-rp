@@ -12,7 +12,6 @@ RUN apt-get update \
     && apt-get autoremove \
     && apt-get autoclean
 
-ADD install_packages.r /install_packages.r
-RUN Rscript /install_packages.r \
-    && rm /install_packages.r 
+ADD scripts /scripts
+RUN Rscript /scripts/install_packages.r
 
