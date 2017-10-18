@@ -1,8 +1,8 @@
 pkgs = '
-    devtools roxygen2
+    devtools roxygen2 diffr
     Rcpp
     rmarkdown DT
-    RJDBC jsonlite
+    RJDBC jsonlite XLConnect
     data.table 
     mailR httr urltools openssl
     ggplot2 rbokeh
