@@ -48,7 +48,9 @@ docker run -d \
     dclong/jupyterlab-rp
 ```
 
-## Image Tree Related to [dclong/ubuntu_b](https://hub.docker.com/r/dclong/ubuntu_b/)
+## Image Tree Related to [dclong/jupyterlab-rp](https://hub.docker.com/r/dclong/jupyterlab-rp/)
+
+[dclong/ubuntu_b](https://hub.docker.com/r/dclong/ubuntu_b/)
 
 - [dclong/python](https://hub.docker.com/r/dclong/python/)
     - [dclong/dryscrape](https://hub.docker.com/r/dclong/dryscrape/)
