@@ -13,6 +13,14 @@ Remote Desktop: None
 Kernels: 
 - Python 3.6.6  
 - R
+    + devtools roxygen2 diffr
+    + Rcpp
+    + rmarkdown DT
+    + RJDBC jsonlite XLConnect
+    + data.table 
+    + mailR httr urltools openssl
+    + ggplot2 rbokeh
+    + lubridate
 
 ## Usage in Linux/Unix
 
