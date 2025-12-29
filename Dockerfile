@@ -1,8 +1,8 @@
 FROM dclong/jupyterhub-rb
 
 # install popular R packages
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends \
+RUN apt-get -y update \
+    && apt-get -y install --no-install-recommends \
         libxml2-dev \
         libcairo2-dev \
         libssl-dev \
